@@ -1,5 +1,8 @@
-1D and 2D Sinusoidal positional encoding/embedding (PyTorch)
+1D and 2D Sinusoidal positional encoding/embedding (Numpy version)
 ----
+Original (Torch) repo: https://github.com/wzlxjtu/PositionalEncoding2D
+Hints i used for translate: https://github.com/torch/torch7/wiki/Torch-for-Numpy-users
+
 In non-recurrent neural networks, positional encoding is used to injects information about the relative or absolute position of the input sequence.
 The Sinusoidal-based encoding does not require training, thus does not add additional parameters to the model.
 
